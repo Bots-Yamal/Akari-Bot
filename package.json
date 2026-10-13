@@ -1,5 +1,12 @@
 {
-  "name": "akari-cloudflare-bot",
+  "name": "akari-bot",
   "version": "1.0.0",
-  "private": true
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.27.0",
+    "pg": "^8.23.1"
+  }
 }
